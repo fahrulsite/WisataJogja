@@ -15,7 +15,7 @@
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:padding="8dp">
+            android:padding="5dp">
         <ImageView
                 android:id="@+id/img_item_wisata"
                 android:layout_width="150dp"
@@ -27,13 +27,13 @@
                 android:id="@+id/tv_item_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="2dp"
                 android:layout_toEndOf="@id/img_item_wisata"
                 android:layout_toRightOf="@id/img_item_wisata"
-                android:textSize="16sp"
+                android:textSize="14sp"
                 android:textStyle="bold"
                 tools:text="@string/wisata_name" />
         <TextView
@@ -41,12 +41,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_below="@id/tv_item_name"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
                 android:layout_toEndOf="@id/img_item_wisata"
                 android:layout_toRightOf="@id/img_item_wisata"
+                android:textSize="12sp"
                 android:ellipsize="end"
-                android:maxLines="2"
+                android:maxLines="4"
                 tools:text="@string/detail" />
 
     </RelativeLayout>

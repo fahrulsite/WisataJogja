@@ -9,7 +9,7 @@ object dataWisata {
         "Kraton Yogyakarta",
         "Gembira Loka",
         "Museum Vredeburg",
-        "Taman Pintar Yogyakarta",
+        "Taman Pintar ",
         "Monumen Yogya Kembali",
         "Candi Prambanan",
         "Pantai Glagah",
@@ -52,44 +52,76 @@ object dataWisata {
         "Parangtritis, Bantul DIY")
 
     private val wisataTime = arrayOf(
-        "Minggu\t09:00AM–03:00PM\n" +
-                "Senin\t09:00AM–03:00PM\n" +
-                "Selasa\t09:00AM–03:00PM\n" +
-                "Rabu\t09:00AM–03:00PM\n" +
-                "Kamis\t09:00AM–03:00PM\n" +
-                "Jumat\t09:00AM–03:00PM\n" +
-                "Sabtu\t09:00AM–03:00PM",
-        "Setiap Hari\t00.00 - 24.00 ",
-        "Minggu\t08:00AM–14:00PM\n" +
-                "Senin\t08:00AM–14:00PM\n" +
-                "Selasa\t08:00AM–14:00PM\n" +
-                "Rabu\t08:00AM–14:00PM\n" +
-                "Kamis\t08:00AM–14:00PM\n" +
-                "Jumat\t08:00AM–12:00PM\n" +
-                "Sabtu\t08:00AM–14:00PM",
-        "Minggu\t07:30AM–17:30PM\n" +
-                "Senin\t07:30AM–17:30PM\n" +
-                "Selasa\t07:30AM–17:30PM\n" +
-                "Rabu\t07:30AM–17:30PM\n" +
-                "Kamis\t07:30AM–17:30PM\n" +
-                "Jumat\t07:30AM–17:30PM\n" +
-                "Sabtu\t07:30AM–17:30PM",
-        "Minggu\t07:30AM–16:00PM\n" +
-                "Senin\tTutup\n" +
-                "Selasa\t07:30AM–16:00PM\n" +
-                "Rabu\t07:30AM–16:00PM\n" +
-                "Kamis\t07:30AM–16:00PM\n" +
-                "Jumat\t07:30AM–16:30PM\n" +
-                "Sabtu\t07:30AM–16:00PM",
-        "Minggu\t08:30AM–16:00PM\n" +
-                "Senin\t08:30AM–16:00PM\n" +
-                "Selasa\t08:30AM–16:00PM\n" +
-                "Rabu\t08:30AM–16:00PM\n" +
-                "Kamis\t08:30AM–16:00PM\n" +
-                "Jumat\t08:30AM–16:00PM\n" +
-                "Sabtu\t08:30AM–16:00PM",
-        "Setiap Hari\t00.00 - 24.00 ",
-        "Setiap Hari\t00.00 - 24.00 ")
+        "t09:00 AM – 15:00 PM\n" +
+                "09:00 AM – 15:00 PM\n" +
+                "09:00 AM – 15:00 PM\n"  +
+                "09:00 AM – 15:00 PM\n"  +
+                "09:00 AM – 15:00 PM\n"  +
+                "09:00 AM – 15:00 PM\n" +
+                "09:00 AM – 15:00 PM\n" ,
+        "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n"+
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n",
+        "08:00 AM – 14:00 PM\n" +
+                "08:00 AM – 14:00 PM\n" +
+                "08:00 AM – 14:00 PM\n"  +
+                "08:00 AM – 14:00 PM\n" +
+                "08:00 AM – 14:00 PM\n" +
+                "08:00 AM – 12:00 PM\n"  +
+                "08:00 AM – 14:00 PM\n" ,
+        "07:30 AM – 17:30 PM\n" +
+                "07:30 AM – 17:30 PM\n" +
+                "07:30 AM – 17:30 PM\n"  +
+                "07:30 AM – 17:30 PM\n"  +
+                "07:30 AM – 17:30 PM\n"  +
+                "07:30 AM – 17:30 PM\n"  +
+                "07:30 AM – 17:30 PM\n" ,
+        "07:30 AM – 16:00 PM\n" +
+                "Tutup\n" +
+                "07:30 AM – 16:00 PM\n" +
+                "07:30 AM – 16:00 PM\n"+
+                "07:30 AM – 16:00 PM\n"+
+                "07:30 AM – 16:30 PM\n"+
+                "07:30 AM – 16:00 PM\n",
+        "08:30 AM – 16:00 PM\n" +
+                "08:30 AM – 16:00 PM\n" +
+                "08:30 AM – 16:00 PM\n"  +
+                "08:30 AM – 16:00 PM\n" +
+                "08:30 AM – 16:00 PM\n" +
+                "08:30 AM – 16:00 PM\n"  +
+                "08:30 AM – 16:00 PM\n",
+        "08:00 AM – 16:00 PM\n" +
+                "Tutup" +
+                "08:00 AM – 16:00 PM\n" +
+                "08:00 AM – 16:00 PM\n" +
+                "08:00 AM – 16:00 PM\n"+
+                "08:00 AM – 16:30 PM\n" +
+                "08:00 AM – 16:00 PM\n",
+        "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n" +
+                "06:00 AM – 17:00 PM\n",
+        "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n"+
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n",
+        "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n"+
+                "00:00 AM – 24:00 PM\n" +
+                "00:00 AM – 24:00 PM\n")
 
     val listData: ArrayList<Wisata>
         get() {

@@ -2,5 +2,11 @@
     <string name="app_name">Wisata Jogja</string>
     <string name="wisata_name">Nama Tempat Wisata</string>
     <string name="detail">Detail</string>
-    <string name="action_settings">Settings</string>
+    <string name="address">address</string>
+    <string name="time">time</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_about">about</string>
+    <string name="about_name">Fahrul Ahmad Fauzi</string>
+    <string name="email">fahrulsite@gmail.com</string>
+
 </resources>
