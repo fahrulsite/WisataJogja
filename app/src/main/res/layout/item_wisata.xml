@@ -35,6 +35,7 @@
                 android:layout_toRightOf="@id/img_item_wisata"
                 android:textSize="14sp"
                 android:textStyle="bold"
+                android:textColor="#000000"
                 tools:text="@string/wisata_name" />
         <TextView
                 android:id="@+id/tv_item_detail"

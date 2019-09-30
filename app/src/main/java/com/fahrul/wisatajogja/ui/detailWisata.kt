@@ -40,6 +40,7 @@ class detailWisata : AppCompatActivity() {
         tvAddress.text = tAddress
         tvTime.text = tTime
     }
+
     companion object {
         const val EXTRA_NAME = "extra_name"
         const val EXTRA_PHOTO = "extra_photo"

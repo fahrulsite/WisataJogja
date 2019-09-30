@@ -52,7 +52,7 @@ object dataWisata {
         "Parangtritis, Bantul DIY")
 
     private val wisataTime = arrayOf(
-        "t09:00 AM – 15:00 PM\n" +
+        "09:00 AM – 15:00 PM\n" +
                 "09:00 AM – 15:00 PM\n" +
                 "09:00 AM – 15:00 PM\n"  +
                 "09:00 AM – 15:00 PM\n"  +

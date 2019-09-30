@@ -29,7 +29,7 @@ class CardViewWisataAdapter  (private val listWisata:ArrayList<Wisata>) : Recycl
 
         Glide.with(holder.itemView.context)
             .load(photo)
-            .apply(RequestOptions().override(150, 120))
+            .apply(RequestOptions())
             .into(holder.imgPhoto)
         holder.tvName.text = name
         holder.tvDetail.text = detail
