@@ -24,7 +24,7 @@ class detailWisata : AppCompatActivity() {
         val tvTime: TextView = findViewById(R.id.tv_item_time)
 
         val tName  = intent.getStringExtra(EXTRA_NAME)
-        val tImg = intent.getStringExtra(EXTRA_PHOTO)
+        val tImg = intent.getIntExtra(EXTRA_PHOTO,0)
         val tDetail = intent.getStringExtra(EXTRA_DETAIL)
         val tAddress = intent.getStringExtra(EXTRA_ADDRESS)
         val tTime = intent.getStringExtra(EXTRA_TIME)
