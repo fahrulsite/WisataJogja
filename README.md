@@ -4,9 +4,9 @@ Dicoding Submission - Belajar Android Pemula
 
 Learning about :
 - Activity on Android
+- Layouting on activity
 - Intent on Activity 
 - Make a list with Recycler View and CardView
 
-![1](https://user-images.githubusercontent.com/37899902/79032944-68d08280-7bd4-11ea-8c75-1c77928f375d.jpg)
-![2](https://user-images.githubusercontent.com/37899902/79032948-6f5efa00-7bd4-11ea-927d-56b4bdaa82ee.jpg)
-![3](https://user-images.githubusercontent.com/37899902/79032952-7259ea80-7bd4-11ea-85d3-a6221ea26caa.jpg)
+![1](https://user-images.githubusercontent.com/37899902/79033034-29eefc80-7bd5-11ea-86ec-e9326d4652b1.jpg) ![2](https://user-images.githubusercontent.com/37899902/79033037-2b202980-7bd5-11ea-967e-e2bb7d178c68.jpg)
+![2](https://user-images.githubusercontent.com/37899902/79033086-8eaa5700-7bd5-11ea-903f-a338c2a70fb2.jpg)
